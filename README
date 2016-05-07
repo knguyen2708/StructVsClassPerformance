@@ -1,1 +1,7 @@
 Demonstrates how structures can be more performant than classes.
+
+Tests are done for structs/classes with 1 and 10 fields.
+
+Compiler settings:
+LLVM -Ofast
+Swift Compiler -O -whole-module-optimization

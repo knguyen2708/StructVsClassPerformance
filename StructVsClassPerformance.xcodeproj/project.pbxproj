@@ -9,12 +9,14 @@
 /* Begin PBXBuildFile section */
 		733DE9E81CDDA3B00084B22A /* Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 733DE9E71CDDA3B00084B22A /* Tests.swift */; };
 		733DE9EA1CDDA3F60084B22A /* DataTypes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 733DE9E91CDDA3F60084B22A /* DataTypes.swift */; };
+		733DE9EC1CDDA6220084B22A /* README in Resources */ = {isa = PBXBuildFile; fileRef = 733DE9EB1CDDA6220084B22A /* README */; };
 		73495ADF1B1C74F100BD59FE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73495ADE1B1C74F100BD59FE /* AppDelegate.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		733DE9E71CDDA3B00084B22A /* Tests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
 		733DE9E91CDDA3F60084B22A /* DataTypes.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataTypes.swift; sourceTree = "<group>"; };
+		733DE9EB1CDDA6220084B22A /* README */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README; sourceTree = SOURCE_ROOT; };
 		73495AD91B1C74F100BD59FE /* StructVsClassPerformance.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StructVsClassPerformance.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		73495ADD1B1C74F100BD59FE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		73495ADE1B1C74F100BD59FE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -50,6 +52,7 @@
 		73495ADB1B1C74F100BD59FE /* StructVsClassPerformance */ = {
 			isa = PBXGroup;
 			children = (
+				733DE9EB1CDDA6220084B22A /* README */,
 				73495ADE1B1C74F100BD59FE /* AppDelegate.swift */,
 				733DE9E71CDDA3B00084B22A /* Tests.swift */,
 				733DE9E91CDDA3F60084B22A /* DataTypes.swift */,
@@ -117,6 +120,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				733DE9EC1CDDA6220084B22A /* README in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
