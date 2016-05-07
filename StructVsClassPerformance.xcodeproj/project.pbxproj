@@ -10,18 +10,7 @@
 		733DE9E81CDDA3B00084B22A /* Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 733DE9E71CDDA3B00084B22A /* Tests.swift */; };
 		733DE9EA1CDDA3F60084B22A /* DataTypes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 733DE9E91CDDA3F60084B22A /* DataTypes.swift */; };
 		73495ADF1B1C74F100BD59FE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73495ADE1B1C74F100BD59FE /* AppDelegate.swift */; };
-		73495AF51B1C74F100BD59FE /* StructVsClassPerformanceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73495AF41B1C74F100BD59FE /* StructVsClassPerformanceTests.swift */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		73495AEF1B1C74F100BD59FE /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 73495AD11B1C74F100BD59FE /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 73495AD81B1C74F100BD59FE;
-			remoteInfo = StructVsClassPerformance;
-		};
-/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		733DE9E71CDDA3B00084B22A /* Tests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
@@ -29,20 +18,10 @@
 		73495AD91B1C74F100BD59FE /* StructVsClassPerformance.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StructVsClassPerformance.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		73495ADD1B1C74F100BD59FE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		73495ADE1B1C74F100BD59FE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		73495AEE1B1C74F100BD59FE /* StructVsClassPerformanceTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StructVsClassPerformanceTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		73495AF31B1C74F100BD59FE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		73495AF41B1C74F100BD59FE /* StructVsClassPerformanceTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StructVsClassPerformanceTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		73495AD61B1C74F100BD59FE /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		73495AEB1B1C74F100BD59FE /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -56,7 +35,6 @@
 			isa = PBXGroup;
 			children = (
 				73495ADB1B1C74F100BD59FE /* StructVsClassPerformance */,
-				73495AF11B1C74F100BD59FE /* StructVsClassPerformanceTests */,
 				73495ADA1B1C74F100BD59FE /* Products */,
 			);
 			sourceTree = "<group>";
@@ -65,7 +43,6 @@
 			isa = PBXGroup;
 			children = (
 				73495AD91B1C74F100BD59FE /* StructVsClassPerformance.app */,
-				73495AEE1B1C74F100BD59FE /* StructVsClassPerformanceTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -76,34 +53,9 @@
 				73495ADE1B1C74F100BD59FE /* AppDelegate.swift */,
 				733DE9E71CDDA3B00084B22A /* Tests.swift */,
 				733DE9E91CDDA3F60084B22A /* DataTypes.swift */,
-				73495ADC1B1C74F100BD59FE /* Supporting Files */,
-			);
-			path = StructVsClassPerformance;
-			sourceTree = "<group>";
-		};
-		73495ADC1B1C74F100BD59FE /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
 				73495ADD1B1C74F100BD59FE /* Info.plist */,
 			);
-			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		73495AF11B1C74F100BD59FE /* StructVsClassPerformanceTests */ = {
-			isa = PBXGroup;
-			children = (
-				73495AF41B1C74F100BD59FE /* StructVsClassPerformanceTests.swift */,
-				73495AF21B1C74F100BD59FE /* Supporting Files */,
-			);
-			path = StructVsClassPerformanceTests;
-			sourceTree = "<group>";
-		};
-		73495AF21B1C74F100BD59FE /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				73495AF31B1C74F100BD59FE /* Info.plist */,
-			);
-			name = "Supporting Files";
+			path = StructVsClassPerformance;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -126,24 +78,6 @@
 			productReference = 73495AD91B1C74F100BD59FE /* StructVsClassPerformance.app */;
 			productType = "com.apple.product-type.application";
 		};
-		73495AED1B1C74F100BD59FE /* StructVsClassPerformanceTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 73495AFB1B1C74F100BD59FE /* Build configuration list for PBXNativeTarget "StructVsClassPerformanceTests" */;
-			buildPhases = (
-				73495AEA1B1C74F100BD59FE /* Sources */,
-				73495AEB1B1C74F100BD59FE /* Frameworks */,
-				73495AEC1B1C74F100BD59FE /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				73495AF01B1C74F100BD59FE /* PBXTargetDependency */,
-			);
-			name = StructVsClassPerformanceTests;
-			productName = StructVsClassPerformanceTests;
-			productReference = 73495AEE1B1C74F100BD59FE /* StructVsClassPerformanceTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -157,10 +91,6 @@
 				TargetAttributes = {
 					73495AD81B1C74F100BD59FE = {
 						CreatedOnToolsVersion = 6.3.2;
-					};
-					73495AED1B1C74F100BD59FE = {
-						CreatedOnToolsVersion = 6.3.2;
-						TestTargetID = 73495AD81B1C74F100BD59FE;
 					};
 				};
 			};
@@ -178,20 +108,12 @@
 			projectRoot = "";
 			targets = (
 				73495AD81B1C74F100BD59FE /* StructVsClassPerformance */,
-				73495AED1B1C74F100BD59FE /* StructVsClassPerformanceTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
 		73495AD71B1C74F100BD59FE /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		73495AEC1B1C74F100BD59FE /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -211,23 +133,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		73495AEA1B1C74F100BD59FE /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				73495AF51B1C74F100BD59FE /* StructVsClassPerformanceTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		73495AF01B1C74F100BD59FE /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 73495AD81B1C74F100BD59FE /* StructVsClassPerformance */;
-			targetProxy = 73495AEF1B1C74F100BD59FE /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		73495AF61B1C74F100BD59FE /* Debug */ = {
@@ -266,7 +172,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -299,15 +205,17 @@
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = fast;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
 				GCC_WARN_UNDECLARED_SELECTOR = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 			};
@@ -333,40 +241,6 @@
 			};
 			name = Release;
 		};
-		73495AFC1B1C74F100BD59FE /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-				);
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = StructVsClassPerformanceTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/StructVsClassPerformance.app/StructVsClassPerformance";
-			};
-			name = Debug;
-		};
-		73495AFD1B1C74F100BD59FE /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = StructVsClassPerformanceTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/StructVsClassPerformance.app/StructVsClassPerformance";
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -384,15 +258,6 @@
 			buildConfigurations = (
 				73495AF91B1C74F100BD59FE /* Debug */,
 				73495AFA1B1C74F100BD59FE /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		73495AFB1B1C74F100BD59FE /* Build configuration list for PBXNativeTarget "StructVsClassPerformanceTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				73495AFC1B1C74F100BD59FE /* Debug */,
-				73495AFD1B1C74F100BD59FE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
