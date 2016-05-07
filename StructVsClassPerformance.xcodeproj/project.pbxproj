@@ -7,11 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		733DE9E81CDDA3B00084B22A /* Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 733DE9E71CDDA3B00084B22A /* Tests.swift */; };
+		733DE9EA1CDDA3F60084B22A /* DataTypes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 733DE9E91CDDA3F60084B22A /* DataTypes.swift */; };
 		73495ADF1B1C74F100BD59FE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73495ADE1B1C74F100BD59FE /* AppDelegate.swift */; };
-		73495AE11B1C74F100BD59FE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73495AE01B1C74F100BD59FE /* ViewController.swift */; };
-		73495AE41B1C74F100BD59FE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 73495AE21B1C74F100BD59FE /* Main.storyboard */; };
-		73495AE61B1C74F100BD59FE /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 73495AE51B1C74F100BD59FE /* Images.xcassets */; };
-		73495AE91B1C74F100BD59FE /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 73495AE71B1C74F100BD59FE /* LaunchScreen.xib */; };
 		73495AF51B1C74F100BD59FE /* StructVsClassPerformanceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73495AF41B1C74F100BD59FE /* StructVsClassPerformanceTests.swift */; };
 /* End PBXBuildFile section */
 
@@ -26,13 +24,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		733DE9E71CDDA3B00084B22A /* Tests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
+		733DE9E91CDDA3F60084B22A /* DataTypes.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataTypes.swift; sourceTree = "<group>"; };
 		73495AD91B1C74F100BD59FE /* StructVsClassPerformance.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StructVsClassPerformance.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		73495ADD1B1C74F100BD59FE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		73495ADE1B1C74F100BD59FE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		73495AE01B1C74F100BD59FE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		73495AE31B1C74F100BD59FE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		73495AE51B1C74F100BD59FE /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		73495AE81B1C74F100BD59FE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		73495AEE1B1C74F100BD59FE /* StructVsClassPerformanceTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StructVsClassPerformanceTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		73495AF31B1C74F100BD59FE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		73495AF41B1C74F100BD59FE /* StructVsClassPerformanceTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StructVsClassPerformanceTests.swift; sourceTree = "<group>"; };
@@ -78,10 +74,8 @@
 			isa = PBXGroup;
 			children = (
 				73495ADE1B1C74F100BD59FE /* AppDelegate.swift */,
-				73495AE01B1C74F100BD59FE /* ViewController.swift */,
-				73495AE21B1C74F100BD59FE /* Main.storyboard */,
-				73495AE51B1C74F100BD59FE /* Images.xcassets */,
-				73495AE71B1C74F100BD59FE /* LaunchScreen.xib */,
+				733DE9E71CDDA3B00084B22A /* Tests.swift */,
+				733DE9E91CDDA3F60084B22A /* DataTypes.swift */,
 				73495ADC1B1C74F100BD59FE /* Supporting Files */,
 			);
 			path = StructVsClassPerformance;
@@ -156,6 +150,8 @@
 		73495AD11B1C74F100BD59FE /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastSwiftMigration = 0730;
+				LastSwiftUpdateCheck = 0730;
 				LastUpgradeCheck = 0630;
 				ORGANIZATIONNAME = k;
 				TargetAttributes = {
@@ -192,9 +188,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				73495AE41B1C74F100BD59FE /* Main.storyboard in Resources */,
-				73495AE91B1C74F100BD59FE /* LaunchScreen.xib in Resources */,
-				73495AE61B1C74F100BD59FE /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -212,7 +205,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				73495AE11B1C74F100BD59FE /* ViewController.swift in Sources */,
+				733DE9EA1CDDA3F60084B22A /* DataTypes.swift in Sources */,
+				733DE9E81CDDA3B00084B22A /* Tests.swift in Sources */,
 				73495ADF1B1C74F100BD59FE /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -234,25 +228,6 @@
 			targetProxy = 73495AEF1B1C74F100BD59FE /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		73495AE21B1C74F100BD59FE /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				73495AE31B1C74F100BD59FE /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		73495AE71B1C74F100BD59FE /* LaunchScreen.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				73495AE81B1C74F100BD59FE /* Base */,
-			);
-			name = LaunchScreen.xib;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		73495AF61B1C74F100BD59FE /* Debug */ = {
@@ -411,6 +386,7 @@
 				73495AFA1B1C74F100BD59FE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		73495AFB1B1C74F100BD59FE /* Build configuration list for PBXNativeTarget "StructVsClassPerformanceTests" */ = {
 			isa = XCConfigurationList;
@@ -419,6 +395,7 @@
 				73495AFD1B1C74F100BD59FE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
