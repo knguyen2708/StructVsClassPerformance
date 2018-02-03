@@ -10,42 +10,44 @@ import UIKit
 
 class Tests {
     static func runTests() {
-        measure("class (1 field)") {
+        let a = measure("class (1 field)") {
             var x = IntClass(0)
             for _ in 1...10000000 {
                 x = x + IntClass(1)
             }
         }
         
-        measure("struct (1 field)") {
+        let b = measure("struct (1 field)") {
             var x = IntStruct(0)
             for _ in 1...10000000 {
                 x = x + IntStruct(1)
             }
         }
-        
-        measure("class (10 fields)") {
+        print("Struct is \(a/b) faster")
+        let c = measure("class (10 fields)") {
             var x = Int10Class(0)
             for _ in 1...10000000 {
                 x = x + Int10Class(1)
             }
         }
         
-        measure("struct (10 fields)") {
+        let d = measure("struct (10 fields)") {
             var x = Int10Struct(0)
             for _ in 1...10000000 {
                 x = x + Int10Struct(1)
             }
         }
+        print("Struct is \(c/d) faster")
     }
     
-    static private func measure(name: String, @noescape block: () -> ()) {
+    @discardableResult static private func measure(_ name: String,  block: () -> ())->Double {
         let t0 = CACurrentMediaTime()
         
         block()
         
         let dt = CACurrentMediaTime() - t0
         print("\(name) -> \(dt)")
+        return dt
     }
 }
 
