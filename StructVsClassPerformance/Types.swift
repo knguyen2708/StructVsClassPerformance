@@ -10,12 +10,12 @@ import UIKit
 
 // 1 field
 class IntClass {
-    var value: Int
+    let value: Int
     init(_ val: Int) { self.value = val }
 }
 
 struct IntStruct {
-    var value: Int
+    let value: Int
     init(_ val: Int) { self.value = val }
 }
 
@@ -29,7 +29,7 @@ func + (x: IntStruct, y: IntStruct) -> IntStruct {
 
 // 10 fields
 class Int10Class {
-    var value1, value2, value3, value4, value5, value6, value7, value8, value9, value10: Int
+    let value1, value2, value3, value4, value5, value6, value7, value8, value9, value10: Int
     
     init(_ val: Int) {
         self.value1 = val
@@ -46,7 +46,7 @@ class Int10Class {
 }
 
 struct Int10Struct {
-    var value1, value2, value3, value4, value5, value6, value7, value8, value9, value10: Int
+    let value1, value2, value3, value4, value5, value6, value7, value8, value9, value10: Int
     
     init(_ val: Int) {
         self.value1 = val

@@ -10,6 +10,8 @@ import UIKit
 
 class Tests {
     static func runTests() {
+        print("Running tests")
+        
         measure("class (1 field)") {
             var x = IntClass(0)
             for _ in 1...10000000 {
@@ -39,13 +41,15 @@ class Tests {
         }
     }
     
-    static private func measure(name: String, @noescape block: () -> ()) {
+    static private func measure(_ name: String, block: @escaping () -> ()) {
+        print()
+        print("\(name)")
         let t0 = CACurrentMediaTime()
         
         block()
         
         let dt = CACurrentMediaTime() - t0
-        print("\(name) -> \(dt)")
+        print("\(dt)")
     }
 }
 
